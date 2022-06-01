@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+* {
+  outline: none;
+  font-family: 'Kalam', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  color: white;
+  text-align: center;
+  text-size-adjust: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image:url(/curriculoo/img/fundo.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  /* -webkit-box-sizing: border-box;
+          box-sizing: border-box; */
+  width: 100%;
+  height: 100%;
+}
+
+.navbarNav .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 34px;
+}
+.logo {
+  height: 100px;
+  width: 120px;
+  margin-left: 150px;
+  border-radius: 50%;
+  display: flex;
+ justify-content: left;
+}
+
+.bnt-ColunaArrumada{
+  background-color: transparent;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(0, 255, 251);
+  border: transparent;
+  padding: 20px;
+}
+
+.bnt-certificações{
+    background-color: transparent;
+    justify-content: center;
+  font-size: 1.5em;
+  color: rgb(0, 255, 251);
+  border: transparent;
+  padding: 20px;
+}
+
+.bnt-curriculo{
+    background-color: transparent;
+    text-align: center;
+  font-size: 1.5em;
+  color: rgb(0, 255, 251);
+  border: transparent;
+  padding: 20px;
+}
+
+/* .bnt-contatos {
+    background-color: transparent;
+    text-align: center;
+  font-size: 1.5em;
+  color: rgb(0, 255, 251);
+  border: transparent;
+} */
+
+.container-menu .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: left 34px; 
+}
+
+.container-menu{
+     display: -webkit-box;
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
+    background-color: #141212;
+    display: flex;
+    opacity:.9;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index: 999999;
+}
+
+ul{
+  list-style: none;
+}
+
+  .certificações {
+    display: flex;
+    flex-direction: column;
+  }
+
+.coluna-arrumada{
+  display: flex;
+  /* margin-top: 150px; */
+  margin-left: 34px;
+}
+
+.image-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px white;
+  margin-top: 150px;
+  /* border-radius: 50%; */
+}
+
+.container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 250px;
+}
+.curriculo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+iframe{
+  /* width: 35%; */
+  /* height: 50%; */
+  display:flex;
+  position: static;
+  margin-top: 150px;
+  /* align-items: center;
+  justify-content: center; */
+  border: 3px white;
+}
+.mora{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 250px;
+}
+
+ .conteudo-titulo {
+text-align: center;
+}
+
+.conteudo-caracteristicas {
+  text-align: center;
+}
+
+.conteudo {
+  list-style: none;
+} 
+
+/* .curriculo, .contatos {
+  margin-top: 100px;
+}
+.contatos{
+color: white;
+} */
+
+/* carrossel */
+
+* { margin: 0; padding: 0; }
+
+.slider {
+  /* display: block; */
+  max-height: 350px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  /* position: relative;  */
+  position: flex;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute
+}
+
+.slider img {
+  margin: 0;
+  vertical-align: center;
+}
+.slider input {
+  display: none;
+}
+.slider label {
+  background-color: white;
+  cursor: pointer;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+  z-index: 10;
+  top: 300px;
+  border-radius: 50%;
+}
+
+.slider li:nth-child(1) label {
+  left: 0;
+}
+.slider li:nth-child(2) label {
+  left: 50px;
+}
+.slider li:nth-child(3) label {
+  left: 100px;
+}
+.slider li:nth-child(4) label {
+  left: 150px;
+}
+.slider li:nth-child(5) label {
+  left: 200px;
+}
+.slider li:nth-child(6) label {
+  left: 250px;
+}
+.slider li:nth-child(7) label {
+  left: 300px;
+}
+.slider li:nth-child(8) label {
+  left: 350px;
+}
+.slider li:nth-child(9) label {
+  left: 400px;
+}
+.slider li:nth-child(10) label {
+  left: 450px;
+}
+
+.slider img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+/* ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}*/
+#curso{
+  margin-top: -60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.escrita{
+    margin: 0;
+    margin-top: 30px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: max-content;
+    margin-left: 35%;
+    margin-top: 23%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+/*
+.carrossel {
+  height: 100%;
+  display: flex;
+}
+
+li {
+  display: block;
+  list-style: none;
+}
+
+button.prev,
+button.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+button.prev {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+button.next {
+  position: absolute;
+  right: 0;
+  top: 80px;
+} */
+
+
+
+/* footer{
+  background-color: #000;
+    height: 20vh;
+    /* width: 100%; 
+  } */
+  
+    footer {
+      background-color: black;
+      color: rgb(0, 255, 251);
+      width: 100%;
+      text-align: center;
+      line-height: 20px;
+      margin-top: 100px;
+      bottom: 0;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 120px;
+    }
+    .footer-img {
+     margin-bottom: 1rem;
+     margin: 30px;
+
+    }
+    
+    .footer-img img {
+     width: 2rem;
+     height: 2rem;
+     margin-right: 1rem;
+    }
+
+
+    .button-menu {
+      display: none;
+    }
+
+    .image-left img {
+      max-width: 410px;
+      width: 100%;
+    }
+
+/* reponsividade */
+
+@media (max-width: 800px) {
+  .escrita{
+    margin-top: 95%;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: max-content;
+    margin-left: 0
+}
+  .curriculo {
+    flex-direction: column;
+  }
+
+  .curriculo iframe {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .mora {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .container-menu {
+    justify-content: left;
+  }
+  footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+
+  .coluna-arrumada {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .image-left {
+    width: 80%;
+  }
+
+  .image-left img {
+    max-width: 700px;
+  }
+
+  .coluna-arrumada .container {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .footer{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+    .navbarNav {
+      position: absolute;
+      top: 100px;
+      display: none;
+      background-color: #141212;
+    }
+
+    .navbar-nav {
+      width: 100vw;
+      flex-direction: column;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .button-menu {
+      display: block;
+      position: absolute;
+      right: 200px;
+      background-color: transparent;
+      justify-content: center;
+    font-size: 1.5em;
+    color: rgb(0, 255, 251);
+    border: transparent;
+  
+    }
+}
+@media (max-width: 400px){
+  footer{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141212;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+  }
+  .escrita{
+    margin-top: 110%;
+    margin-bottom: 50%;
+  }
+}
