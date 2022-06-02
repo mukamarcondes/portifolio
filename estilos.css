@@ -345,7 +345,7 @@ button.next {
       width: 100%;
       text-align: center;
       line-height: 20px;
-      margin-top: 70px;
+      margin-top: 100px;
       bottom: 0;
       justify-content: center;
       align-items: center;
@@ -405,7 +405,7 @@ button.next {
   }
 
   .container-menu {
-    justify-content: left;
+    justify-content: center;
   }
   footer{
     margin: 0;
