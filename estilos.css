@@ -334,6 +334,10 @@ button.next {
   top: 80px;
 } */
 
+.carousel-inner {
+  width: 600px;
+  height: 400px;
+}
 
 
 /* footer */
