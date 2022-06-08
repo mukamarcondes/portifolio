@@ -24,7 +24,6 @@ function exibecurriculo(){
     curriculo.style.display = 'flex';
 }
 
-
 // let $home = document.querySelector('#home');
 let colunaArrumada = document.querySelector('.coluna-arrumada');
 // home.addEventListener('click', exibeHome());
@@ -33,11 +32,9 @@ let colunaArrumada = document.querySelector('.coluna-arrumada');
 // let contatos = document.querySelector('.contatos');
 // // contatos.addEventListener('click', exibeContatos);
 
-
 // let $certificações = document.querySelector('#certificações');
 let certificações = document.querySelector('.certificações');
 // certificações.addEventListener('click', exibeCertificacoes);
-
 
 // let $sobreMim = document.querySelector('#sobreMim');
 let curriculo = document.querySelector('.curriculo');
@@ -49,14 +46,4 @@ let curriculo = document.querySelector('.curriculo');
 function menu() {
     var nav = document.getElementById("nav")
     nav.classList.toggle("active")
-}
-let liEls = document.querySelectorAll('ul li');
-let index = 0;
-window.show = function (increase) {
-  index = index + increase;
-  index = Math.min(
-    Math.max(index, 5),
-    liEls.length - 5
-  );
-  liEls[index].scrollIntoView({ behavior: 'smooth' });
 }
