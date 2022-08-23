@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-image: url(/img/fundo.png);  
+  background-color: rgba(0, 0, 0, 0.458); ;  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
