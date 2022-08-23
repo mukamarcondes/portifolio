@@ -137,7 +137,7 @@ ul{
   align-items: center;
   margin-bottom: 100px;
   margin-top: 250px;
-  color: white;
+  color: black;
 }
 .curriculo{
   display: flex;
@@ -163,7 +163,7 @@ iframe{
   align-items: center;
   margin-bottom: 100px;
   margin-top: 250px;
-  color: white;
+  color: black;
 }
 
  .conteudo-titulo {
@@ -287,10 +287,10 @@ color: white;
     padding: 40px;
     max-width: max-content;
     margin-left: 35%;
-    color: white;
+    color: black;
 }
 a{
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:hover{
@@ -430,6 +430,9 @@ button.next {
 @media (max-width: 640px) {
   .logo {
     margin: 0;
+  }
+  footer{
+    width: 100%;
   }
 }
 
