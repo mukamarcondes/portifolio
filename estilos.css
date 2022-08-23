@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap"); */
 * {
   /* margin: 0;
   padding: 0; */
@@ -8,13 +10,13 @@
 
 html {
   scroll-behavior: smooth;
-  color: black;
+  color: white;
   text-align: center;
   text-size-adjust: center;
 }
 
 body {
-  background-color: white;  
+  background-image: url(/img/fundo.png);  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,7 +139,7 @@ ul{
   align-items: center;
   margin-bottom: 100px;
   margin-top: 250px;
-  color: black;
+  color: white;
 }
 .curriculo{
   display: flex;
@@ -163,7 +165,7 @@ iframe{
   align-items: center;
   margin-bottom: 100px;
   margin-top: 250px;
-  color: black;
+  color: white;
 }
 
  .conteudo-titulo {
@@ -287,10 +289,10 @@ color: white;
     padding: 40px;
     max-width: max-content;
     margin-left: 35%;
-    color: black;
+    color: white;
 }
 a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 a:hover{
@@ -303,12 +305,10 @@ text-decoration: underline;
   height: 100%;
   display: flex;
 }
-
 li {
   display: block;
   list-style: none;
 }
-
 button.prev,
 button.next {
   display: flex;
@@ -321,13 +321,11 @@ button.next {
   width: 50px;
   height: 50px;
 }
-
 button.prev {
   position: absolute;
   left: 0;
   top: 80px;
 }
-
 button.next {
   position: absolute;
   right: 0;
@@ -378,6 +376,7 @@ button.next {
     .button-menu {
       display: none;
     }
+  
 
     .image-left img {
       max-width: 410px;
@@ -426,17 +425,40 @@ button.next {
   }
 }
 
+@media (max-width: 1200px){
+  .escrita {
+      margin-right: 0px;
+      margin-left: 250px;
+      justify-content: center;
+      display: flex;
+    }
+}
+@media(max-width: 935px){
+.escrita {
+    margin-right: 0px;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+  }
+}
 
 @media (max-width: 640px) {
   .logo {
     margin: 0;
   }
-  footer{
-    width: 100%;
-  }
+    .carousel-inner {
+      width: 450px;
+      height: 350px;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .escrita{
+      margin-right: 30px ;
+      margin-left: 0px;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 535px) {
     .navbarNav {
       position: absolute;
       top: 100px;
@@ -447,21 +469,38 @@ button.next {
     .navbar-nav {
       width: 100vw;
       flex-direction: column;
+      
     }
 
     .active {
       display: block;
+      width: 100%;
+    }
+    footer .footer-img{
+      width: 100%;
     }
 
     .button-menu {
       display: block;
       position: absolute;
       right: 100px;
+      background-color: transparent;
+        justify-content: center;
+        font-size: 1.5em;
+        color: rgb(0, 255, 251);
+        border: transparent;
+        padding: 20px;
+    }
+}
+@media (max-width: 460px) {
+  footer .footer-img {
+    width: 100%;
+  }
+    .carousel-inner {
+      width: 350px;
+      height: 250px;
+      margin-right: 0px;
+      margin-left: 0px;
     }
 }
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
