@@ -442,7 +442,7 @@ button.next {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 690px) {
   .logo {
     margin: 0;
   }
